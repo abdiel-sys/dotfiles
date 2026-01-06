@@ -1,0 +1,106 @@
+@import "frappe.css";
+
+* {
+  font-family: FantasqueSansMono Nerd Font;
+  font-size: 15px;
+  min-height: 0;
+}
+
+#waybar {
+  background: transparent;
+  color: @text;
+  margin: 5px 5px;
+}
+
+#workspaces {
+  border-radius: 1rem;
+  margin: 5px;
+  background-color: @surface0;
+  margin-left: 0.5rem;
+}
+
+#workspaces button {
+  color: @lavender;
+  border-radius: 1rem;
+  padding: 0.6rem;
+}
+
+#workspaces button.active {
+  color: @sky;
+  border-radius: 1rem;
+}
+
+#workspaces button:hover {
+  color: @saphire;
+  border-radius: 1rem;
+}
+
+#custom-media,
+#tray,
+#backlight,
+#clock,
+#battery,
+#pulseaudio,
+#custom-lock,
+#custom-power,
+#language,
+#cpu,
+#memory,
+#temperature,
+#power-profiles-daemon {
+  background-color: @surface0;
+  padding: 0rem 1rem;
+  margin: 5px 0;
+}
+
+#clock {
+  color: @blue;
+  border-radius: 0px 1rem 1rem 0px;
+  margin-right: 1rem;
+}
+#battery {
+  color: @green;
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @red;
+}
+
+#backlight {
+  color: @yellow;
+}
+
+#backlight,
+#battery,
+#power-profiles-daemon {
+  border-radius: 0;
+}
+
+#pulseaudio {
+  color: @maroon;
+}
+
+#language {
+  color: @sapphire;
+  border-radius: 1rem 0px 0px 1rem;
+  margin-left: 1rem;
+}
+
+#custom-media {
+  color: @mauve;
+  border-radius: 1rem;
+}
+
+#tray {
+  border-radius: 1rem;
+  margin-right: 1rem;
+}
+
+#custom-power {
+  margin-right: 1rem;
+  border-radius: 1rem;
+}
