@@ -1,6 +1,6 @@
 #!/bin/bash
 
-opt=$(echo -e "Toggle pause\nNext\nPrevious" | wofi --show dmenu --dmenu --style ~/.config/wofi/src/frappe/style.css --conf ~/.config/wofi/config/configMPC)
+opt=$(echo -e "Toggle pause\nNext\nPrevious" | fuzzel -d --lines 3 -a top-right)
 
 case $opt in
 Toggle\ pause) mpc toggle ;;
