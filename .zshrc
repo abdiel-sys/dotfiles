@@ -43,6 +43,8 @@ zinit cdreplay -q
 
 eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/catppuccin_frappe.json)"
 
+# list-colors
+source /usr/share/LS_COLORS/dircolors.sh
 
 # Keybindings
 bindkey -e

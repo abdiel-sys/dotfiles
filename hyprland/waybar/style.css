@@ -1,7 +1,7 @@
-@import "frappe.css";
+@import "monokai.css";
 
 * {
-  font-family: FantasqueSansMono Nerd Font;
+  font-family: JetBrainsMono Nerd Font;
   font-size: 15px;
   min-height: 0;
 }
