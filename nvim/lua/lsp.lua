@@ -26,7 +26,5 @@ vim.api.nvim_create_autocmd("LspAttach", {
 vim.lsp.enable({ 
     "ty",
     "lua_ls",
-    "hyprls",
-
 })
 
