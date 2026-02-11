@@ -41,7 +41,7 @@ autoload -Uz compinit && compinit
 
 zinit cdreplay -q
 
-eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/catppuccin_frappe.json)"
+eval "$(oh-my-posh init zsh --config $HOME/.config/ohmyposh/simplemonokay.omp.json)"
 
 # list-colors
 source /usr/share/LS_COLORS/dircolors.sh
@@ -77,6 +77,7 @@ alias ls='ls --color'
 alias vim='nvim'
 alias c='clear'
 
+export MANPAGER='nvim +Man!'
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"

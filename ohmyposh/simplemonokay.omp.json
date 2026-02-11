@@ -73,8 +73,14 @@
         }
       ],
       "newline": true
-    }
+    }   
   ],
   "version": 3,
-  "final_space": true
+  "final_space": true,
+    "transient_prompt": {
+        "background": "transparent",
+        "foreground": "#f92672",
+        "template": "❯ "
+    }
 }
+
